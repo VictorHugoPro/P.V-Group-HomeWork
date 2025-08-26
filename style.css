@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    background-color: #0d0c1d;
+    color: #fee9ce;
+    align-items: center;
+    justify-content: space-around; 
+    position: relative;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.h-content {
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    font-size: 1.6em;
+}
+
+nav a { 
+    display: flex;
+    color: #f1dac4;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+} 
+
+body {
+    background: linear-gradient(135deg, #5b5161 5%, #1b213b 70%);
+    line-height: 1.6;
+}
+
+main {
+    background-color: #161b33;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.intro {
+    text-align: center;
+    margin: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 6px solid #f1dac4;
+    border-radius: 10px;
+}
+
+.concepts {
+    text-align: center;
+    margin: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 6px solid #f1dac4;
+    border-radius: 10px;
+}
+
+.applications {
+    text-align: center;
+    margin: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 6px solid #f1dac4;
+    border-radius: 10px;
+}
+
+.span-h2 {
+    color:#f1dac4;
+}
+
+h2 {
+    color: #fcfaff;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: #fcfaff;
+    font-size: 1.3em;
+    margin: 15px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    color: #fcfaff;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.li-h2 {
+    color: #f1dac4;
+    font-weight: bold;
+    font-size: 1.1em;
+}
