@@ -5,3 +5,5 @@ What's new on v2?
 - The website's **navbar** is now responsive for smartphones; (I'm going to turn it responsive on the entire website soon);
 - The website's design is *almost* totally different, just keeping the same color scheme;
 - Different logo;
+
+https://victorhugopro.github.io/P.V-Group-HomeWork/
