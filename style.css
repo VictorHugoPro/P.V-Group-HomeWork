@@ -14,7 +14,7 @@ header {
     color: #fee9ce;
     align-items: center;
     justify-content: space-around; 
-    position: relative;
+    position: relatve;
     flex-wrap: wrap;
     margin: 10px;
     padding: 10px;
@@ -30,20 +30,27 @@ header {
 .h-content {
     text-align: center;
     align-items: center;
-    margin: 0;
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
-nav a { 
-    display: flex;
-    color: #f1dac4;
+nav a {
+    color: #fee9ce;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1em;
+    margin-left: 15px;
+}
+
+.nav-links { 
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    gap: 5px;
 } 
 
 body {
-    background: linear-gradient(135deg, #5b5161 5%, #1b213b 70%);
+    background: linear-gradient(135deg, #5b5161 8%, #1b213b 70%);
     line-height: 1.6;
 }
 
@@ -111,7 +118,21 @@ li {
 }
 
 .li-h2 {
-    color: #f1dac4;
+    color: #f0d1b5;
     font-weight: bold;
     font-size: 1.1em;
+}
+
+.videos {
+    text-align: center;
+    margin: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 6px solid #f1dac4;
+    border-radius: 10px;
+}
+
+#p_footer {
+    font-size: 0.4m;
+    color: #f1dac4;
 }
